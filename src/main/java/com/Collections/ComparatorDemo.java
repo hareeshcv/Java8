@@ -39,7 +39,8 @@ public class ComparatorDemo {
         list.add(new Student(21,"mahesh"));
 
         Collections.sort(list,com);
-        for (Student std : list)
-        System.out.println(std);
+        for (Student std : list) {
+            System.out.println(std);
+        }
     }
 }
